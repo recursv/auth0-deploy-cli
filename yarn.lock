@@ -376,7 +376,7 @@ auth0@^2.3.1:
     request "^2.81.0"
     rest-facade "^1.5.0"
 
-auth0@^2.9.0, auth0@^2.9.1:
+auth0@^2.9.0:
   version "2.9.1"
   resolved "https://registry.yarnpkg.com/auth0/-/auth0-2.9.1.tgz#85e088035f29925ed086da94d811288a65f5835c"
   dependencies:
@@ -385,6 +385,17 @@ auth0@^2.9.0, auth0@^2.9.1:
     object.assign "^4.0.4"
     request "^2.83.0"
     rest-facade "^1.10.0"
+    retry "^0.10.1"
+
+"auth0@https://github.com/auth0/node-auth0.git":
+  version "2.9.3"
+  resolved "https://github.com/auth0/node-auth0.git#e249f53143e4a8921aa3eb0f095a717a2f37d713"
+  dependencies:
+    bluebird "^2.10.2"
+    lru-memoizer "^1.11.1"
+    object.assign "^4.0.4"
+    request "^2.83.0"
+    rest-facade "^1.10.1"
     retry "^0.10.1"
 
 aws-sign2@~0.6.0:
@@ -4219,7 +4230,7 @@ resolve@^1.2.0, resolve@~1.4.0:
   dependencies:
     path-parse "^1.0.5"
 
-rest-facade@^1.10.0:
+rest-facade@^1.10.0, rest-facade@^1.10.1:
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/rest-facade/-/rest-facade-1.10.1.tgz#a9b030ff50df28c9ea1a2719f94e369c47167d20"
   dependencies:
